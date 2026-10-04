@@ -8,7 +8,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-
 # Bnbair • Fullstack Booking Platform (Spring Boot 3 + Angular 17)
 
 Vacation rental and booking platform inspired by modern accommodation marketplaces. Built with Spring Boot and Angular, featuring secure authentication, property management, reservation workflows, and advanced search capabilities.
@@ -28,7 +27,7 @@ This repository is organized as a monorepo containing both the Spring Boot backe
 ## 🛠️ Technologies Used
 
 ### Backend
- 
+
 * **Java 21**
 * **Spring Boot 3**
 * **Spring Security**
@@ -38,14 +37,14 @@ This repository is organized as a monorepo containing both the Spring Boot backe
 * **Docker**
 
 ### Frontend
- 
+
 * **Angular 17**
 * **TypeScript**
 * **PrimeNG**
 * **RxJS**
 
 ### Testing
- 
+
 * **JUnit**
 * **Mockito**
 
