@@ -1,35 +1,67 @@
-## Bnbair (fullstack project) Spring boot 3, Angular 17, PrimeNG, PostgreSQL, Auth0 (2024) (Backend + Frontend)
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.2.3-brightgreen)
+![Spring_Security](https://img.shields.io/badge/Spring_Security-6-green)
+![OAuth2](https://img.shields.io/badge/OAuth2-Auth0-purple)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-336791)
+![Angular](https://img.shields.io/badge/Angular-17-dd0031)
+![PrimeNG](https://img.shields.io/badge/PrimeNG-UI_Framework-3B82F6)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
+![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-- Spring boot backend
-- Angular frontend
 
-### Key Features:
-- 📅 Booking management for travelers
-- 🏠 Landlord reservation management
-- 🔍 Search for houses by criteria (location, date, guests, beds, etc)
-- 🔐 Authentication and Authorization (Role management) with Auth0 (OAuth2)
-- 🏢 Domain-driven design
+# Bnbair • Fullstack Booking Platform (Spring Boot 3 + Angular 17)
 
-## Usage
+Vacation rental and booking platform inspired by modern accommodation marketplaces. Built with Spring Boot and Angular, featuring secure authentication, property management, reservation workflows, and advanced search capabilities.
 
-### Prerequisites
-- [JDK 21](https://adoptium.net/temurin/releases/)
-- [PostgreSQL](https://www.postgresql.org/download/)
-- [VSCode](https://code.visualstudio.com/download)
+This repository is organized as a monorepo containing both the Spring Boot backend and Angular frontend applications.
 
-## Bnbair-backend
+## ✨ Key Features:
 
-### Launch
-### Maven
-``./mvnw spring-boot:run  -Dspring-boot.run.arguments="--AUTH0_CLIENT_ID=<client-id> --AUTH0_CLIENT_SECRET=<client-secret>"``
+* **Property Management:** Publish and manage vacation rental listings.
+* **Reservation System:** Booking management for travelers and hosts.
+* **Advanced Search:** Filter properties by location, dates, guests, beds, and other criteria.
+* **Secure Authentication:** OAuth2 authentication and authorization powered by Auth0.
+* **Role Management:** Dedicated workflows for travelers and property owners.
+* **Domain-Driven Design:** Structured architecture focused on business domains.
+* **Responsive User Experience:** Modern Angular and PrimeNG interface.
 
-## Bnbair-frontend
+## 🛠️ Technologies Used
 
-### Fetch dependencies
-``npm install``
+### Backend
+ 
+* **Java 21**
+* **Spring Boot 3**
+* **Spring Security**
+* **OAuth2 / Auth0**
+* **PostgreSQL**
+* **Spring Data JPA**
+* **Docker**
 
-### Launch dev server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Frontend
+ 
+* **Angular 17**
+* **TypeScript**
+* **PrimeNG**
+* **RxJS**
 
-### Build
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Testing
+ 
+* **JUnit**
+* **Mockito**
+
+## 🏗️ Architecture Highlights
+
+* Domain-Driven Design (DDD)
+* Monorepo Structure
+* RESTful API Architecture
+* OAuth2 Authentication with Auth0
+* Layered Backend Design
+* Role-Based Access Control
+* Responsive Frontend Architecture
+
+## 📦 Project Status
+
+**Completed • Full-Stack Showcase Project**
+
+This project demonstrates full-stack development practices through a modern booking platform combining Spring Boot, Angular, Auth0 authentication, Domain-Driven Design principles, and PostgreSQL persistence.
+
