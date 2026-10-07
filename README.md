@@ -8,59 +8,87 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)
 ![Docker](https://img.shields.io/badge/Docker-Container-2496ed)
 
-# Bnbair • Fullstack Booking Platform (Spring Boot 3 + Angular 17)
+# Bnbair
 
-Vacation rental and booking platform inspired by modern accommodation marketplaces. Built with Spring Boot and Angular, featuring secure authentication, property management, reservation workflows, and advanced search capabilities.
+Vacation rental and booking platform inspired by modern accommodation marketplaces.
 
-This repository is organized as a monorepo containing both the Spring Boot backend and Angular frontend applications.
+> \> [Live Preview](https://redabensaad.github.io/bnbair)
 
-## ✨ Key Features:
+---
 
-* **Property Management:** Publish and manage vacation rental listings.
-* **Reservation System:** Booking management for travelers and hosts.
-* **Advanced Search:** Filter properties by location, dates, guests, beds, and other criteria.
-* **Secure Authentication:** OAuth2 authentication and authorization powered by Auth0.
-* **Role Management:** Dedicated workflows for travelers and property owners.
-* **Domain-Driven Design:** Structured architecture focused on business domains.
-* **Responsive User Experience:** Modern Angular and PrimeNG interface.
+$ Context
 
-## 🛠️ Technologies Used
+Bnbair is a full-stack booking platform designed around real-world accommodation rental workflows.
 
-### Backend
+The project combines property management, reservation processes, secure authentication and advanced search capabilities within a single application.
 
-* **Java 21**
-* **Spring Boot 3**
-* **Spring Security**
-* **OAuth2 / Auth0**
-* **PostgreSQL**
-* **Spring Data JPA**
-* **Docker**
+The repository follows a monorepo approach containing both the Spring Boot backend and Angular frontend.
 
-### Frontend
+---
 
-* **Angular 17**
-* **TypeScript**
-* **PrimeNG**
-* **RxJS**
+$ Domain
+ 
+> \> Vacation rental marketplace<br>
+> \> Property management<br>
+> \> Reservation workflows<br>
+> \> Traveler and host experiences<br>
 
-### Testing
+---
 
-* **JUnit**
-* **Mockito**
+$ What Was Built
 
-## 🏗️ Architecture Highlights
+> \> Property listing management<br>
+> \> Vacation rental publication workflows<br>
+> \> Reservation and booking management<br>
+> \> Host and traveler experiences<br>
+> \> Advanced property search and filtering<br>
+> \> OAuth2 authentication with Auth0<br>
+> \> Role-based access control<br>
+> \> Responsive Angular user interface<br>
+> \> REST API communication<br>
+> \> End-to-end full-stack architecture<br>
 
-* Domain-Driven Design (DDD)
-* Monorepo Structure
-* RESTful API Architecture
-* OAuth2 Authentication with Auth0
-* Layered Backend Design
-* Role-Based Access Control
-* Responsive Frontend Architecture
+---
 
-## 📦 Project Status
+$ Technical Stack
 
-**Completed • Full-Stack Showcase Project**
+> \> Java 21<br>
+> \> Spring Boot 3.2<br>
+> \> Spring Security 6<br>
+> \> OAuth2 / Auth0<br>
+> \> PostgreSQL<br>
+> \> Spring Data JPA<br>
+> \> Angular 17<br>
+> \> TypeScript<br>
+> \> PrimeNG<br>
+> \> RxJS<br>
+> \> Docker<br>
+> \> JUnit<br>
+> \> Mockito<br>
 
-This project demonstrates full-stack development practices through a modern booking platform combining Spring Boot, Angular, Auth0 authentication, Domain-Driven Design principles, and PostgreSQL persistence.
+---
 
+$ Architecture
+
+The application follows a full-stack architecture built around a Spring Boot REST API and an Angular frontend.
+
+Business logic is organized using Domain-Driven Design principles while authentication and authorization rely on Auth0 integration.
+
+The project is maintained as a monorepo to keep frontend and backend development within a single codebase.
+
+---
+
+$ Project Status
+
+> \> Completed showcase project<br>
+> \> Full-stack application<br>
+> \> Monorepo architecture<br>
+> \> Portfolio demonstration project<br>
+
+---
+
+$ Notes
+
+This project showcases modern application development using Spring Boot, Angular and PostgreSQL.
+
+Particular attention was given to authentication, domain organization, user workflows and overall application architecture.
