@@ -92,3 +92,15 @@ $ Notes
 This project showcases modern application development using Spring Boot, Angular and PostgreSQL.
 
 Particular attention was given to authentication, domain organization, user workflows and overall application architecture.
+
+---
+
+$ Preview
+
+![BNBAir](shot/bnbair.png)
+
+---
+
+$ Built
+
+✓ Sep 2024
